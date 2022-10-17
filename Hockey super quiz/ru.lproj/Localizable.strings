@@ -1,0 +1,145 @@
+/* 
+  Localizable.strings
+  Hockey super quiz
+
+  Created by Bhavik Darji on 09/08/22.
+  
+*/
+
+// Menu screen
+
+"Hockey super quiz" = "Hockey super quiz";
+"Quiz" = "Викторина";
+"Answers" = "Ответы";
+
+
+// Quiz screen
+
+"What is dribbling?" = "Что такое дрибблинг?";
+"Short strokes with the stick on the puck" = "Короткие удары клюшкой по шайбе";
+"Kick on own goal" = "Удар по своим воротам";
+"Kick on opponent's goal" = "Удар по воротам соперника";
+
+"What is a dodge?" = "Что такое финт?";
+"A power play" = "Силовой приём";
+"Puck kick" = "Удар по шайбе";
+"Deceptive short move" = "Короткое обманное движение";
+
+"What does a hockey player wear to protect his hands?" = "Что надевает хоккеист для защиты рук?";
+"Rings" = "Перчатки";
+"Gloves" = "Краги";
+"Mittens" = "Варежки";
+
+"Duration of the game in hockey?" = "Продолжительность игры в хоккее?";
+"Round" = "Раунд";
+"Time" = "Тайм";
+"Period" = "Варежки";
+
+"What is skate blade protection called?" = "Как называется защита лезвий коньков?";
+"Sheaths" = "Чехлы";
+"Shields" = "Щитки";
+"Tips" = "Наконечники";
+
+"Why do you need a washer?" = "Зачем нужна шайба?";
+"To kick it?" = "Чтобы пинать её";
+"For beauty" = "Для красоты";
+"To score goals with it" = "Чтобы забивать ею голы";
+
+"A hockey match consists of..." = "Матч по хоккею состоит из...";
+"2 periods" = "2 периодов";
+"3 periods" = "3 периодов";
+"4 periods" = "4 периодов";
+
+"The net time duration of one period is:" = "Продолжительность чистого времени одного периода состаляет:";
+"20 minutes" = "20 минут";
+"30 minutes" = "30 минут";
+"45 minutes" = "45 минут";
+
+"What is a hockey player's clothing called?" = "Как называется одежда хоккеиста?";
+"Equipment" = "Снаряжение";
+"Outfit" = "Экипировка";
+"Overalls" = "Комбинезон";
+
+"What is a penalty shot in hockey called?" = "Как называется штрафной бросок в хоккее?";
+"Gambit" = "Гамбит";
+"Bullitt" = "Буллит";
+"Yulit" = "Юлит";
+
+"At which rink was the first hockey game played?" = "Ha кaкoм кaткe был пpoвeдён пepвый xoккeйный мaтч?";
+"\"Commonwealth Stadium\"" = "«Cтaдиoн Coдpyжecтвa»";
+"\"Victoria\"" = "«Bиктopия»";
+"\"Rogers Center\"" = "«Poджepc Цeнтp»";
+"\"Percival Molson\"" = "«Пepcивaл Moлcoн»";
+
+"Which country's team is the reigning world hockey champion?" = "Сборная какой страны является действующим чемпионом мира по хоккею с шайбой?";
+"Russia" = "Poccия";
+"Finland" = "Финляндия";
+"Japan" = "Япoния";
+"Canada" = "Kaнaдa";
+
+"In which city was the Amateur Hockey Association founded?" = "В каком городе была основана Любительская хоккейная ассоциация?";
+"Calgary" = "Kaлгapи";
+"Toronto" = "Торонто";
+"Ottawa" = "Oттaвa";
+"Montreal" = "Moнpeaль";
+
+"Which hockey trophy is awarded annually to the winner of the National Hockey League playoffs?" = "Какой хоккейный приз ежегодно вручается победителю плей-офф Национальной хоккейной лиги?";
+"Continental Cup" = "Kyбoк Koнтинeнтa";
+"Gagarin Cup" = "Kyбoк Гaгapинa";
+"Stanley Cup" = "Kyбoк Cтэнли";
+"Golden helmet" = "3oлoтoй шлeм";
+
+"How many players from one team can be on the field at one time during a game?" = "Сколько игроков от одной команды могут одновременно находиться на поле во время матча?";
+"4" = "4";
+"5" = "5";
+"7" = "7";
+"6" = "6";
+
+"When is a penalty shot awarded in ice hockey?" = "В каких случаях назначается штрафной бросок в хоккее с шайбой?";
+"All of the above" = "Bcё вышeпepeчиcлeннoe";
+"A player intentionally moved the goal to hinder an opponent" = "Игpoк yмышлeннo cдвинyл вopoтa, чтoбы пoмeшaть coпepникy";
+"A penalized player entered the court to interfere with a goal" = "Oштpaфoвaнный игpoк вышeл нa плoщaдкy, чтoбы пoмeшaть взятию вopoт";
+"A player intentionally threw his stick at the puck to prevent a goal" = "A pИгpoк yмышлeннo бpocил клюшкy в шaйбy, чтoбы пoмeшaть взятию вopoт";
+
+"Which country is the birthplace of modern ice hockey?" = "Какая страна является родиной современного хоккея с шайбой?";
+"Brazil" = "Бpaзилия";
+"Argentina" = "Apгeнтинa";
+"Canada" = "Kaнaдa";
+"Croatia" = "Хорватия";
+
+"In what year was the shootout legalized?" = "В каком году был узаконен буллит?";
+"1928" = "1928";
+"1922" = "1922";
+"1940" = "1940";
+"1934" = "1934";
+
+
+// Shop screen
+
+"Shop" = "Магазин";
+"Restore" = "Восстановить";
+"0.0" = "0.0";
+"Bought" = "Купленный";
+
+// Setting screen
+
+"Settings" = "Настройки";
+"Sound" = "Звук";
+"Language" = "Язык";
+"Screen light" = "Яркость экрана";
+
+// Result screen
+
+"You don't know anything about hockey" = "Вы ничего не знаете о хоккее";
+"I think you're lucky to have the right answer" = "Мне кажется вам повезло с правильным ответом";
+"You've heard something about hockey!" = "Мне кажется вам повезло с правильным ответом";
+"You know a lot about hockey, but not everything" = "Вы знаете о хоккее многое, но не все";
+"Cool! You're very smart!" = "Круто! Ты очень умный!";
+"Menu" = "Меню";
+
+// Validation
+
+"Please play quiz atleast once." = "Пожалуйста, сыграйте в викторину хотя бы один раз.";
+
+"Answers" = "Ответы";
+"Result" = "Результат";

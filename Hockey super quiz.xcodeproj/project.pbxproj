@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F26DA5B28A36BF500C2A76E /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F26DA5A28A36BF500C2A76E /* LanguageManager.swift */; };
+		2F26DA5F28A36C1A00C2A76E /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F26DA5E28A36C1A00C2A76E /* UIView+Toast.m */; };
+		2F4ED47128A2557600FC1B51 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F4ED47028A2557500FC1B51 /* sound.mp3 */; };
+		2F674EC828A0DEB1001910A1 /* Ubuntu-M.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F674EC728A0DB10001910A1 /* Ubuntu-M.ttf */; };
+		2F674EC928A0DEB3001910A1 /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F674EC628A0DB10001910A1 /* Ubuntu-R.ttf */; };
+		2F674ECA28A0DEB5001910A1 /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F674EC528A0DB0F001910A1 /* Ubuntu-B.ttf */; };
+		2F674ECE28A0E300001910A1 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F674ECD28A0E300001910A1 /* QuizViewController.swift */; };
+		2F951CA928A21E5C00B4CB7D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F951CA828A21E5C00B4CB7D /* SettingViewController.swift */; };
+		2F951CAC28A232F600B4CB7D /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F951CAB28A232F600B4CB7D /* AnswerViewController.swift */; };
+		2F9C5B2328A26F98008E1D8F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F9C5B2528A26F98008E1D8F /* Localizable.strings */; };
+		2FD9FD8228A127BE000FF554 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9FD8128A127BE000FF554 /* ResultViewController.swift */; };
+		2FD9FD8528A13057000FF554 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9FD8428A13057000FF554 /* MenuViewController.swift */; };
+		2FD9FD8828A136EA000FF554 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9FD8728A136EA000FF554 /* ShopViewController.swift */; };
+		2FF6034028A0D69A0046C0A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF6033F28A0D69A0046C0A5 /* AppDelegate.swift */; };
+		2FF6034228A0D69A0046C0A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF6034128A0D69A0046C0A5 /* SceneDelegate.swift */; };
+		2FF6034728A0D69A0046C0A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF6034528A0D69A0046C0A5 /* Main.storyboard */; };
+		2FF6034928A0D69F0046C0A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF6034828A0D69F0046C0A5 /* Assets.xcassets */; };
+		2FF6034C28A0D69F0046C0A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF6034A28A0D69F0046C0A5 /* LaunchScreen.storyboard */; };
+		2FF6035728A0D69F0046C0A5 /* Hockey_super_quizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF6035628A0D69F0046C0A5 /* Hockey_super_quizTests.swift */; };
+		2FF6036128A0D69F0046C0A5 /* Hockey_super_quizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF6036028A0D69F0046C0A5 /* Hockey_super_quizUITests.swift */; };
+		2FF6036328A0D69F0046C0A5 /* Hockey_super_quizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF6036228A0D69F0046C0A5 /* Hockey_super_quizUITestsLaunchTests.swift */; };
+		2FF6037628A0D7540046C0A5 /* GeneralExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF6037428A0D7540046C0A5 /* GeneralExtensions.swift */; };
+		2FF6037728A0D7540046C0A5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF6037528A0D7540046C0A5 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FF6035328A0D69F0046C0A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF6033428A0D69A0046C0A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF6033B28A0D69A0046C0A5;
+			remoteInfo = "Hockey super quiz";
+		};
+		2FF6035D28A0D69F0046C0A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF6033428A0D69A0046C0A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF6033B28A0D69A0046C0A5;
+			remoteInfo = "Hockey super quiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F26DA5A28A36BF500C2A76E /* LanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		2F26DA5D28A36C1A00C2A76E /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		2F26DA5E28A36C1A00C2A76E /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		2F4ED47028A2557500FC1B51 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		2F674EC528A0DB0F001910A1 /* Ubuntu-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-B.ttf"; sourceTree = "<group>"; };
+		2F674EC628A0DB10001910A1 /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		2F674EC728A0DB10001910A1 /* Ubuntu-M.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-M.ttf"; sourceTree = "<group>"; };
+		2F674ECD28A0E300001910A1 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		2F951CA528A2153100B4CB7D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2F951CA828A21E5C00B4CB7D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		2F951CAB28A232F600B4CB7D /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		2F9C5B1228A266E9008E1D8F /* Hockey super quiz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hockey super quiz-Bridging-Header.h"; sourceTree = "<group>"; };
+		2F9C5B2128A26F75008E1D8F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2F9C5B2228A26F75008E1D8F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		2F9C5B2428A26F98008E1D8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2F9C5B2628A26F9A008E1D8F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2FD9FD8128A127BE000FF554 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		2FD9FD8428A13057000FF554 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		2FD9FD8728A136EA000FF554 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		2FF6033C28A0D69A0046C0A5 /* Hockey super quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hockey super quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF6033F28A0D69A0046C0A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FF6034128A0D69A0046C0A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2FF6034628A0D69A0046C0A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FF6034828A0D69F0046C0A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FF6034B28A0D69F0046C0A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FF6034D28A0D69F0046C0A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF6035228A0D69F0046C0A5 /* Hockey super quizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hockey super quizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF6035628A0D69F0046C0A5 /* Hockey_super_quizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hockey_super_quizTests.swift; sourceTree = "<group>"; };
+		2FF6035C28A0D69F0046C0A5 /* Hockey super quizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hockey super quizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF6036028A0D69F0046C0A5 /* Hockey_super_quizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hockey_super_quizUITests.swift; sourceTree = "<group>"; };
+		2FF6036228A0D69F0046C0A5 /* Hockey_super_quizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hockey_super_quizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FF6037428A0D7540046C0A5 /* GeneralExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralExtensions.swift; sourceTree = "<group>"; };
+		2FF6037528A0D7540046C0A5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FF6033928A0D69A0046C0A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF6034F28A0D69F0046C0A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF6035928A0D69F0046C0A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F26DA5928A36BB800C2A76E /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				2F26DA5A28A36BF500C2A76E /* LanguageManager.swift */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		2F26DA5C28A36BFF00C2A76E /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				2F26DA5D28A36C1A00C2A76E /* UIView+Toast.h */,
+				2F26DA5E28A36C1A00C2A76E /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		2F674ECB28A0E2EA001910A1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2F951CAA28A232EA00B4CB7D /* Answer */,
+				2F951CA728A21E4A00B4CB7D /* Setting */,
+				2FD9FD8628A136E2000FF554 /* Shop */,
+				2FD9FD8328A1304F000FF554 /* Menu */,
+				2FD9FD8028A12794000FF554 /* Result */,
+				2F674ECC28A0E2EF001910A1 /* Quiz */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2F674ECC28A0E2EF001910A1 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				2F674ECD28A0E300001910A1 /* QuizViewController.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		2F951CA428A2153100B4CB7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F951CA528A2153100B4CB7D /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F951CA728A21E4A00B4CB7D /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				2F951CA828A21E5C00B4CB7D /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		2F951CAA28A232EA00B4CB7D /* Answer */ = {
+			isa = PBXGroup;
+			children = (
+				2F951CAB28A232F600B4CB7D /* AnswerViewController.swift */,
+			);
+			path = Answer;
+			sourceTree = "<group>";
+		};
+		2FD9FD8028A12794000FF554 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				2FD9FD8128A127BE000FF554 /* ResultViewController.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		2FD9FD8328A1304F000FF554 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2FD9FD8428A13057000FF554 /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		2FD9FD8628A136E2000FF554 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				2FD9FD8728A136EA000FF554 /* ShopViewController.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		2FF6033328A0D69A0046C0A5 = {
+			isa = PBXGroup;
+			children = (
+				2FF6033E28A0D69A0046C0A5 /* Hockey super quiz */,
+				2FF6035528A0D69F0046C0A5 /* Hockey super quizTests */,
+				2FF6035F28A0D69F0046C0A5 /* Hockey super quizUITests */,
+				2FF6033D28A0D69A0046C0A5 /* Products */,
+				2F951CA428A2153100B4CB7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FF6033D28A0D69A0046C0A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FF6033C28A0D69A0046C0A5 /* Hockey super quiz.app */,
+				2FF6035228A0D69F0046C0A5 /* Hockey super quizTests.xctest */,
+				2FF6035C28A0D69F0046C0A5 /* Hockey super quizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FF6033E28A0D69A0046C0A5 /* Hockey super quiz */ = {
+			isa = PBXGroup;
+			children = (
+				2F4ED47028A2557500FC1B51 /* sound.mp3 */,
+				2F9C5B2528A26F98008E1D8F /* Localizable.strings */,
+				2FF6037228A0D7250046C0A5 /* Utility */,
+				2FF6037028A0D6F70046C0A5 /* Views */,
+				2FF6036F28A0D6D40046C0A5 /* Resources */,
+				2FF6034828A0D69F0046C0A5 /* Assets.xcassets */,
+				2FF6034D28A0D69F0046C0A5 /* Info.plist */,
+				2F674ECB28A0E2EA001910A1 /* ViewController */,
+				2F9C5B1228A266E9008E1D8F /* Hockey super quiz-Bridging-Header.h */,
+			);
+			path = "Hockey super quiz";
+			sourceTree = "<group>";
+		};
+		2FF6035528A0D69F0046C0A5 /* Hockey super quizTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FF6035628A0D69F0046C0A5 /* Hockey_super_quizTests.swift */,
+			);
+			path = "Hockey super quizTests";
+			sourceTree = "<group>";
+		};
+		2FF6035F28A0D69F0046C0A5 /* Hockey super quizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FF6036028A0D69F0046C0A5 /* Hockey_super_quizUITests.swift */,
+				2FF6036228A0D69F0046C0A5 /* Hockey_super_quizUITestsLaunchTests.swift */,
+			);
+			path = "Hockey super quizUITests";
+			sourceTree = "<group>";
+		};
+		2FF6036F28A0D6D40046C0A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FF6033F28A0D69A0046C0A5 /* AppDelegate.swift */,
+				2FF6034128A0D69A0046C0A5 /* SceneDelegate.swift */,
+				2FF6037528A0D7540046C0A5 /* Constants.swift */,
+				2FF6037428A0D7540046C0A5 /* GeneralExtensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2FF6037028A0D6F70046C0A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2FF6034A28A0D69F0046C0A5 /* LaunchScreen.storyboard */,
+				2FF6037128A0D7030046C0A5 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2FF6037128A0D7030046C0A5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2FF6034528A0D69A0046C0A5 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2FF6037228A0D7250046C0A5 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2F26DA5C28A36BFF00C2A76E /* Toast */,
+				2F26DA5928A36BB800C2A76E /* Language */,
+				2FF6037328A0D7290046C0A5 /* Font */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2FF6037328A0D7290046C0A5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2F674EC528A0DB0F001910A1 /* Ubuntu-B.ttf */,
+				2F674EC728A0DB10001910A1 /* Ubuntu-M.ttf */,
+				2F674EC628A0DB10001910A1 /* Ubuntu-R.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FF6033B28A0D69A0046C0A5 /* Hockey super quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF6036628A0D69F0046C0A5 /* Build configuration list for PBXNativeTarget "Hockey super quiz" */;
+			buildPhases = (
+				2FF6033828A0D69A0046C0A5 /* Sources */,
+				2FF6033928A0D69A0046C0A5 /* Frameworks */,
+				2FF6033A28A0D69A0046C0A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hockey super quiz";
+			productName = "Hockey super quiz";
+			productReference = 2FF6033C28A0D69A0046C0A5 /* Hockey super quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FF6035128A0D69F0046C0A5 /* Hockey super quizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF6036928A0D69F0046C0A5 /* Build configuration list for PBXNativeTarget "Hockey super quizTests" */;
+			buildPhases = (
+				2FF6034E28A0D69F0046C0A5 /* Sources */,
+				2FF6034F28A0D69F0046C0A5 /* Frameworks */,
+				2FF6035028A0D69F0046C0A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF6035428A0D69F0046C0A5 /* PBXTargetDependency */,
+			);
+			name = "Hockey super quizTests";
+			productName = "Hockey super quizTests";
+			productReference = 2FF6035228A0D69F0046C0A5 /* Hockey super quizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FF6035B28A0D69F0046C0A5 /* Hockey super quizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF6036C28A0D69F0046C0A5 /* Build configuration list for PBXNativeTarget "Hockey super quizUITests" */;
+			buildPhases = (
+				2FF6035828A0D69F0046C0A5 /* Sources */,
+				2FF6035928A0D69F0046C0A5 /* Frameworks */,
+				2FF6035A28A0D69F0046C0A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF6035E28A0D69F0046C0A5 /* PBXTargetDependency */,
+			);
+			name = "Hockey super quizUITests";
+			productName = "Hockey super quizUITests";
+			productReference = 2FF6035C28A0D69F0046C0A5 /* Hockey super quizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FF6033428A0D69A0046C0A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2FF6033B28A0D69A0046C0A5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					2FF6035128A0D69F0046C0A5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2FF6033B28A0D69A0046C0A5;
+					};
+					2FF6035B28A0D69F0046C0A5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2FF6033B28A0D69A0046C0A5;
+					};
+				};
+			};
+			buildConfigurationList = 2FF6033728A0D69A0046C0A5 /* Build configuration list for PBXProject "Hockey super quiz" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 2FF6033328A0D69A0046C0A5;
+			productRefGroup = 2FF6033D28A0D69A0046C0A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FF6033B28A0D69A0046C0A5 /* Hockey super quiz */,
+				2FF6035128A0D69F0046C0A5 /* Hockey super quizTests */,
+				2FF6035B28A0D69F0046C0A5 /* Hockey super quizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FF6033A28A0D69A0046C0A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F674ECA28A0DEB5001910A1 /* Ubuntu-B.ttf in Resources */,
+				2F4ED47128A2557600FC1B51 /* sound.mp3 in Resources */,
+				2FF6034C28A0D69F0046C0A5 /* LaunchScreen.storyboard in Resources */,
+				2F674EC928A0DEB3001910A1 /* Ubuntu-R.ttf in Resources */,
+				2F674EC828A0DEB1001910A1 /* Ubuntu-M.ttf in Resources */,
+				2F9C5B2328A26F98008E1D8F /* Localizable.strings in Resources */,
+				2FF6034928A0D69F0046C0A5 /* Assets.xcassets in Resources */,
+				2FF6034728A0D69A0046C0A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF6035028A0D69F0046C0A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF6035A28A0D69F0046C0A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FF6033828A0D69A0046C0A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F26DA5F28A36C1A00C2A76E /* UIView+Toast.m in Sources */,
+				2FF6037728A0D7540046C0A5 /* Constants.swift in Sources */,
+				2FF6037628A0D7540046C0A5 /* GeneralExtensions.swift in Sources */,
+				2F951CAC28A232F600B4CB7D /* AnswerViewController.swift in Sources */,
+				2F26DA5B28A36BF500C2A76E /* LanguageManager.swift in Sources */,
+				2F674ECE28A0E300001910A1 /* QuizViewController.swift in Sources */,
+				2FD9FD8528A13057000FF554 /* MenuViewController.swift in Sources */,
+				2FD9FD8828A136EA000FF554 /* ShopViewController.swift in Sources */,
+				2F951CA928A21E5C00B4CB7D /* SettingViewController.swift in Sources */,
+				2FF6034028A0D69A0046C0A5 /* AppDelegate.swift in Sources */,
+				2FF6034228A0D69A0046C0A5 /* SceneDelegate.swift in Sources */,
+				2FD9FD8228A127BE000FF554 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF6034E28A0D69F0046C0A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF6035728A0D69F0046C0A5 /* Hockey_super_quizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF6035828A0D69F0046C0A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF6036328A0D69F0046C0A5 /* Hockey_super_quizUITestsLaunchTests.swift in Sources */,
+				2FF6036128A0D69F0046C0A5 /* Hockey_super_quizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FF6035428A0D69F0046C0A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF6033B28A0D69A0046C0A5 /* Hockey super quiz */;
+			targetProxy = 2FF6035328A0D69F0046C0A5 /* PBXContainerItemProxy */;
+		};
+		2FF6035E28A0D69F0046C0A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF6033B28A0D69A0046C0A5 /* Hockey super quiz */;
+			targetProxy = 2FF6035D28A0D69F0046C0A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F9C5B2528A26F98008E1D8F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9C5B2428A26F98008E1D8F /* en */,
+				2F9C5B2628A26F9A008E1D8F /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		2FF6034528A0D69A0046C0A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF6034628A0D69A0046C0A5 /* Base */,
+				2F9C5B2228A26F75008E1D8F /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FF6034A28A0D69F0046C0A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FF6034B28A0D69F0046C0A5 /* Base */,
+				2F9C5B2128A26F75008E1D8F /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FF6036428A0D69F0046C0A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FF6036528A0D69F0046C0A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FF6036728A0D69F0046C0A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M948W27S98;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hockey super quiz/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hockeysuperquiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Development rentapp";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Hockey super quiz/Hockey super quiz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2FF6036828A0D69F0046C0A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M948W27S98;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hockey super quiz/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hockeysuperquiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Development rentapp";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Hockey super quiz/Hockey super quiz-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2FF6036A28A0D69F0046C0A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH4C2F98JK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Hockey-super-quizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hockey super quiz.app/Hockey super quiz";
+			};
+			name = Debug;
+		};
+		2FF6036B28A0D69F0046C0A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH4C2F98JK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Hockey-super-quizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hockey super quiz.app/Hockey super quiz";
+			};
+			name = Release;
+		};
+		2FF6036D28A0D69F0046C0A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH4C2F98JK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Hockey-super-quizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hockey super quiz";
+			};
+			name = Debug;
+		};
+		2FF6036E28A0D69F0046C0A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH4C2F98JK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Hockey-super-quizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hockey super quiz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FF6033728A0D69A0046C0A5 /* Build configuration list for PBXProject "Hockey super quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF6036428A0D69F0046C0A5 /* Debug */,
+				2FF6036528A0D69F0046C0A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF6036628A0D69F0046C0A5 /* Build configuration list for PBXNativeTarget "Hockey super quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF6036728A0D69F0046C0A5 /* Debug */,
+				2FF6036828A0D69F0046C0A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF6036928A0D69F0046C0A5 /* Build configuration list for PBXNativeTarget "Hockey super quizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF6036A28A0D69F0046C0A5 /* Debug */,
+				2FF6036B28A0D69F0046C0A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF6036C28A0D69F0046C0A5 /* Build configuration list for PBXNativeTarget "Hockey super quizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF6036D28A0D69F0046C0A5 /* Debug */,
+				2FF6036E28A0D69F0046C0A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FF6033428A0D69A0046C0A5 /* Project object */;
+}
