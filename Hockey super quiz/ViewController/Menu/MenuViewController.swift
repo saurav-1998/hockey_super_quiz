@@ -25,7 +25,6 @@ class MenuViewController: UIViewController {
     // MARK: - viewWillAppear
     override func viewWillAppear(_ animated: Bool)
     {
-        SAURAV
         self.General()
     }
 }
