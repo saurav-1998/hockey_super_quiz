@@ -5,7 +5,4 @@ workflows:
     scripts:
         - name: CICD Started
           script: echo "Welcome to your CICD set up"
-    publishing:
-        email:
-            recipents:
-                - sauraviositt@gmail.com
+    
