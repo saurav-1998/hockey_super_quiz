@@ -1,5 +1,6 @@
 workflows:
     hockey-workflow:
     name: Hockey Pipeline
-    
-
+    scripts:
+        - name: CICD Started
+          script: echo "Welcome to your CICD set up"
