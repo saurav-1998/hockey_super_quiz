@@ -5,7 +5,7 @@ workflows:
     scripts:
       - name: iOS test
         script: |
-            xcode-project run-tests \
+                xcode-project run-tests \
                 --workspace Hockey super quiz.xcodeproj \
                 --scheme Hockey super quiz
                 --device "iPhone 11"
