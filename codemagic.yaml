@@ -1,13 +1,16 @@
 
 workflows:
-  hockey-workflow:
+    hockey-workflow:
     name: Hockey Pipeline
     scripts:
         - name: iOS test
-          script: |
+            script: |
             xcode-project run-tests \
                 --workspace Hockey super quiz.xcodeproj \
                 --scheme Hockey super quiz
                 --device "iPhone 11"
-          
-    
+    publishing:
+        email:
+            recipients:
+                - sauraviositt@gmail.com
+
