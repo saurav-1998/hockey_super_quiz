@@ -3,7 +3,7 @@ workflows:
     hockey-workflow:
     name: Hockey Pipeline
     scripts:
-        name: iOS test
+        - name: iOS test
         script: |
                 xcode-project run-tests \
                 --workspace Hockey super quiz.xcodeproj \
