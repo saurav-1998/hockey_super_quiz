@@ -1,4 +1,3 @@
-
 workflows:
     hockey-workflow:
     name: Hockey Pipeline
