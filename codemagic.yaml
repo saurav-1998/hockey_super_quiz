@@ -2,7 +2,12 @@
 workflows:
   hockey-workflow:
     name: Hockey Pipeline
-    scripts:
-        - name: CICD Started
-          script: echo "Welcome to your CICD set up"
+      scripts:
+      script: |
+        xcode-project run-tests \
+          --workspace Hockey super quiz.xcodeproj \
+          --scheme Hockey super quiz \
+          --device "iPhone 11"
+    test_report: build/ios/test/*.xml
+          
     
