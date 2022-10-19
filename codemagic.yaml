@@ -3,6 +3,8 @@ workflows:
   hockey-workflow:
     name: Hockey Pipeline
       scripts:
+       - name: CI/CD setup.
+         scripts: |
         xcode-project run-tests \
           --workspace Hockey super quiz.xcodeproj \
           --scheme Hockey super quiz \
