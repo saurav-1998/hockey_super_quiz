@@ -3,11 +3,10 @@ workflows:
   hockey-workflow:
     name: Hockey Pipeline
       scripts:
-      script: |
         xcode-project run-tests \
           --workspace Hockey super quiz.xcodeproj \
           --scheme Hockey super quiz \
           --device "iPhone 11"
-    test_report: build/ios/test/*.xml
+    test_report: build/ios/test.xml
           
     
