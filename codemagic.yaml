@@ -10,5 +10,4 @@ workflows:
                 --workspace Hockey super quiz.xcworkspace \
                 --scheme Hockey super quiz \
                 --device "iPhone 11"
-            test_report: build/ios/test/*.xml
 
