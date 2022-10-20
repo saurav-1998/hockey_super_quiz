@@ -9,6 +9,5 @@ workflows:
                 xcode-project run-tests \
                 --workspace Hockey super quiz.xcworkspace \
                 --scheme Hockey super quiz \
-                --device "iPhone 11"
                 
 
