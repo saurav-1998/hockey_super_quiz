@@ -12,7 +12,7 @@ workflows:
                 --device "iPhone 11"
                 
         definitions:
-            env_versions: &env_versions
+              env_versions: &env_versions
                 xcode: latest
                 cocoapods: default
 
