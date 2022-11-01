@@ -9,8 +9,8 @@ workflows:
                 #!/bin/sh
                 set -ex
                 xcode-project run-tests \
-                    --workspace Hockey super quiz.xcworkspace \
-                    --scheme Hockey super quiz.xcworkspace \
+                    --workspace Hockey_super_quiz.xcworkspace \
+                    --scheme Hockey_super_quiz.xcworkspace \
                     --device "iPhone 12"
             
                 
