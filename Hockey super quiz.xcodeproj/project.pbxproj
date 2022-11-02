@@ -311,7 +311,6 @@
 				30485D9579BB950871523932 /* Pods-Hockey super quiz.debug.xcconfig */,
 				21D9A4C9F2F89853B0F0F80C /* Pods-Hockey super quiz.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

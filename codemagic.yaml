@@ -6,12 +6,20 @@ workflows:
               script: echo "Welcome to your CICD set up"
             - name: iOS test
               script: |
-                #!/bin/sh
-                set -ex
                 xcode-project run-tests \
-                    --workspace $XCODE_WORKSPACE \
-                    --scheme $XCODE_SCHEME \
-                    --device "iPhone 12"
+                --workspace MyAwesomeApp.xcworkspace \
+                --scheme MyAwesomeApp \
+                --device "iPhone 11"
+            test_report: build/ios/test/*.xml
+              
+#            - name: iOS test
+#              script: |
+#                #!/bin/sh
+#                set -ex
+#                xcode-project run-tests \
+#                    --workspace $XCODE_WORKSPACE \
+#                    --scheme $XCODE_SCHEME \
+#                    --device "iPhone 12"
             
                 
                 
