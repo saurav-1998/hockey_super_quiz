@@ -10,7 +10,7 @@ workflows:
                     --workspace MyAwesomeApp.xcworkspace \
                     --scheme MyAwesomeApp \
                     --device "iPhone 11"
-            test_report: build/ios/test/*.xml
+#            test_report: build/ios/test/*.xml
               
 #            - name: iOS test
 #              script: |
